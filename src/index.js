@@ -24,9 +24,10 @@ window.Pusher = Pusher;
 
 window.Echo = new Echo({
   broadcaster: 'pusher',
-  key: '7de092ffaa4b709ce0df',
+  key: 'c2125739f0d66b777906',
   cluster: 'mt1',
-  authEndpoint: "http://127.0.0.1:8000/broadcasting/auth", //http://35.173.50.140/
+  authEndpoint: "http://35.173.50.140/broadcasting/auth",
+  // authEndpoint: "http://127.0.0.1:8000/broadcasting/auth",
   forceTLS: false,
   disableStats: true,
   wsHost: '35.173.50.140',
@@ -34,7 +35,7 @@ window.Echo = new Echo({
   wsPort: 6001,
   auth: {
     headers: {
-      Authorization: 'Bearer 1|XTOrtwjvh2HoEBixlRZBlOCofAXrBGrvhGbAC1ps51b417cd'
+      Authorization: 'Bearer 3|xzNRSAlNDFlzulZFeInVHqKnTPPzHqm5t7WrMHA7d2e34c0d'
     },
   },
 });
